@@ -1,0 +1,91 @@
+{
+  "dataset": "Supermarket Sales",
+  "source_url": "https://raw.githubusercontent.com/deepakorani/Supermarket-Sales-Kaggle-Dataset/main/supermarket_sales.csv",
+  "original_shape": {
+    "rows": 1000,
+    "columns": 17
+  },
+  "cleaned_shape": {
+    "rows": 1000,
+    "columns": 17
+  },
+  "exact_duplicate_rows_detected_before_removal": 0,
+  "exact_duplicate_rows_removed": 0,
+  "missing_values_before_by_original_column": {
+    "Invoice ID": 0,
+    "Branch": 0,
+    "City": 0,
+    "Customer type": 0,
+    "Gender": 0,
+    "Product line": 0,
+    "Unit price": 0,
+    "Quantity": 0,
+    "Tax 5%": 0,
+    "Total": 0,
+    "Date": 0,
+    "Time": 0,
+    "Payment": 0,
+    "cogs": 0,
+    "gross margin percentage": 0,
+    "gross income": 0,
+    "Rating": 0
+  },
+  "missing_values_after_by_cleaned_column": {
+    "invoice_id": 0,
+    "branch": 0,
+    "city": 0,
+    "customer_type": 0,
+    "gender": 0,
+    "product_line": 0,
+    "unit_price": 0,
+    "quantity": 0,
+    "tax_5": 0,
+    "total": 0,
+    "date": 0,
+    "time": 0,
+    "payment": 0,
+    "cogs": 0,
+    "gross_margin_percentage": 0,
+    "gross_income": 0,
+    "rating": 0
+  },
+  "category_values_standardized_count": {
+    "branch": 0,
+    "city": 0,
+    "customer_type": 0,
+    "gender": 0,
+    "product_line": 0,
+    "payment": 0
+  },
+  "numeric_conversion_failures": {
+    "unit_price": 0,
+    "quantity": 0,
+    "tax_5": 0,
+    "total": 0,
+    "cogs": 0,
+    "gross_margin_percentage": 0,
+    "gross_income": 0,
+    "rating": 0
+  },
+  "date_parse_failures": 0,
+  "time_parse_failures": 0,
+  "validation_flags": {
+    "non_positive_unit_price": 0,
+    "non_positive_quantity": 0,
+    "rating_outside_0_10": 0,
+    "unexpected_branch_values": 0,
+    "unexpected_city_values": 0,
+    "unexpected_customer_type_values": 0,
+    "unexpected_gender_values": 0,
+    "unexpected_product_line_values": 0,
+    "unexpected_payment_values": 0,
+    "cogs_formula_mismatch": 0,
+    "total_formula_mismatch": 0
+  },
+  "notes": [
+    "Missing values are reported, not automatically imputed.",
+    "Unexpected category values and formula mismatches are flagged, not silently changed.",
+    "Only exact duplicate rows are removed.",
+    "Check the generated report before writing conclusions in the submission."
+  ]
+}
